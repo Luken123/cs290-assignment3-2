@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>List of Recent Gists</title>
+		<script src= 'test.js'></script>
+	</head>
+	<body>
+	  
+	  <form>
+	   Please enter the number of pages for results (must be between 1-5)<br><br>
+	    <input type='text' name='pages'><br><br><br>
+	  
+	 
+	    Please select the language(s) of gists you want to see:<br>
+	    <input type='checkbox' name='languages' value='JavaScript'>JavaScript<br>
+		<input type='checkbox' name='languages' value='JSON'>JSON<br>
+		<input type='checkbox' name='languages' value='SQL'>SQL<br>
+		<input type='checkbox' name='languages' value='Python'>Python<br><br>
+		
+		
+
+	    <input type='button' name='search' onclick='getURL()' value='Search'>
+	    	 
+	    <h1>List of Gists</h1><br>
+	  </form>
+	  <section>
+	    <div id="gist-list"></div>
+	  </section>
+	  <section>
+	    <div id="display"></d>
+		<h2>List of Favorite Gists</h2>
+	  </section>
+	</body>
+</html>
